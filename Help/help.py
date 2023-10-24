@@ -1,3 +1,4 @@
+#Chat GPT
 def main():
     gloslista = {}
     print("-:glosor:-")

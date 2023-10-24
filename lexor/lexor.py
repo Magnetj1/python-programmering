@@ -1,3 +1,4 @@
+#Jag gjorde 
 def main():
     gloslista = {}
     print("-:glosor:-")
