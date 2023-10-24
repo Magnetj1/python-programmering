@@ -28,12 +28,13 @@ def main():
             if svar == gloslista [glosa]:
                 print("Rätt svar")
                 antal_ratt += 1
-                print(f"\n{antal_ratt}")
+                print(f"\n du har {antal_ratt} Rätt!!")
             else:
                 print(f"\n Fel svar, det är {gloslista[glosa]}")
                 print(f"\n{antal_ratt}")
         
         RAWR = input ("vill du köra om? j/n: ") 
+        print(f"\n Du hade {antal_ratt} rätt!!")
         antal_ratt = 0
         if RAWR == "n":
             break
