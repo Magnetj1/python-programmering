@@ -32,7 +32,8 @@ def main():
                 print(f"\n Fel svar, det är {gloslista[glosa]}")
                 print(f"\n{antal_ratt}")
         
-        RAWR = input ("vill du köra om? j/n: ")
+        RAWR = input ("vill du köra om? j/n: ") 
+        antal_ratt = 0
         if RAWR == "n":
             break
 
