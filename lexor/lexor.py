@@ -4,6 +4,9 @@ def main():
     print("-:glosor:-")
     antal_ratt = 0
     
+    f = open("demofile2.txt", "w")
+    f.write("gloslista")
+    f.close()
 
 
     while True:
@@ -37,6 +40,12 @@ def main():
         print(f"\n Du hade {antal_ratt} rätt!!")
         antal_ratt = 0
         if RAWR == "n":
+            f = open("demofile2.txt", "w")
+            f.write()
+            f.close()
+
+            
+            
             break
 
 main()
